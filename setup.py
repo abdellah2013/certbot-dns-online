@@ -13,6 +13,7 @@ install_requires = [
     "dns-lexicon",
     "requests-mock",
     "pyOpenSSL",
+    "zope.interface",
     "zope"
 ]
 
