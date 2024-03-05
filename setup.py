@@ -12,7 +12,8 @@ install_requires = [
     "mock",
     "dns-lexicon",
     "requests-mock",
-    "pyOpenSSL"
+    "pyOpenSSL",
+    "zope"
 ]
 
 # read the contents of your README file
