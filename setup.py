@@ -1,11 +1,11 @@
 from setuptools import setup
 from setuptools import find_packages
 
-version = "0.0.8"
+version = "0.0.9"
 
 install_requires = [
-    "acme>=0.29.0",
-    "certbot>=0.34.0",
+    "acme>=2.9.0",
+    "certbot>=2.9.0",
     "setuptools",
     "requests",
     "mock",
@@ -30,7 +30,7 @@ setup(
     author="X-I-A",
     author_email="admin@x-i-a.com",
     license="Apache License 2.0",
-    python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+    python_requires=">=3.9",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Plugins",
