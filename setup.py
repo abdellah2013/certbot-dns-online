@@ -9,7 +9,7 @@ install_requires = [
     "setuptools",
     "requests",
     "mock",
-    "dns-lexicon"
+    "dns-lexicon",
     "requests-mock",
 ]
 
